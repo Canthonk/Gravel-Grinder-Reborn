@@ -3,25 +3,28 @@
     <link rel=stylesheet  href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body>
+<body onload="pageload()">
   <div class="tab">
     <div class="align">
-    <button class="tablinks" onclick="openCity(event, 'Still')">C1</button>
-    <button class="tablinks" onclick="openCity(event, 'Huh')">C2</button>
-    <button class="tablinks" onclick="openCity(event, 'What')">C3</button>
+        <h1 id="flint"></h1>
+    <button class="tablinks" onclick="openCity(event, 'Ow')">Overworld</button>
+    <button class="tablinks" onclick="openCity(event, 'Pr')">Prestige</button>
+    <button class="tablinks" onclick="openCity(event, 'St')">Settings</button>
 </div> </div>
-<div id="Still" class="tabcontent">
-    <h3>1</h3>
-   <p>11111</p>
+<div id="Ow" class="tabcontent">
+<button class="gravel" onclick="addflint()"><img src="Images/gravel.jpg"></button>
 </div>
-<div id="Huh" class="tabcontent">
+<div id="Pr" class="tabcontent">
     <h3>2</h3>
     <p>2</p>
 </div>
-<div id="What" class="tabcontent">
-    <h3>3</h3>
- <p>3</p>
+<div id="St" class="tabcontent">
+    <div class ="stgrid">
+        <div class="save"><button class=stbutton onclick="save()">Save</button></div>
+        <div class="load"><button class=stbutton onclick="load()">Load</button></div>
+    </div>
 </div> 
+
 </body>
 
   

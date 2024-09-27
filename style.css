@@ -7,6 +7,7 @@ body {background-color: black;}
   }
 .align {
     text-align: center;
+    color: #ccc;
 }
   /* Style the buttons inside the tab */
   .tab button {
@@ -36,4 +37,36 @@ body {background-color: black;}
     border: 1px solid #ccc;
 
     color:#ccc
+  }
+
+.gravel {
+    border: none;
+    background-color: black;
+  }
+.gravel:hover {
+    border: 1px;
+    border-color: gray;
+  }
+
+
+
+
+.stbutton {
+  background-color: #ccc;
+  border-width: 5px;
+  border-color:#505050;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.stbutton:hover {
+  transform: scale(110%);
+}
+  .stgrid {
+    display:grid;
+    grid-template-columns: auto auto auto;
+    background-color: #000000;
+    padding: 10px;
+gap: 1px;
+    justify-content: center;
   }
